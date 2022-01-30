@@ -5,7 +5,7 @@ import { useState } from 'react';
 function App() {
   const [questions] = useState(data);
   //console.log(questions);
-  return (<div className='bg-warning pb-5'><br/>
+  return (<div className='bg pb-5'><br/>
     <div className='container bg-info rounded' >
       <div className='row'>
         <div className='col-md-3'>
